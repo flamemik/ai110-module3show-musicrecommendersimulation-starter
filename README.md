@@ -326,5 +326,12 @@ Write 1 to 2 paragraphs here about what you learned:
 - about how recommenders turn data into predictions
 - about where bias or unfairness could show up in systems like this
 
+How Recommenders Turn Data Into Predictions
+
+Music recommenders work by converting raw song attributes — genre, mood, energy, tempo — into numeric scores that proxy for "how much will this user enjoy this." Our system does this explicitly: each user preference maps to a weighted rule (mood match = 40 pts, energy proximity = up to 30 pts, etc.), and songs are ranked by total score. More sophisticated systems like Spotify or Netflix learn these weights automatically from millions of user interactions — clicks, skips, replays — using collaborative filtering or neural networks. The core idea is the same either way: observable data (what songs have, what users do) gets transformed into a single ranked list that predicts preference.
+
+Where Bias and Unfairness Emerge
+
+Bias enters wherever the data or the scoring rules reflect unequal treatment without justification. In our system, the 40-point mood bonus means a mediocre genre match with the right mood beats a perfect energy+genre+acoustic match with the wrong mood — one feature dominates unfairly. At scale this gets worse: if training data comes mostly from one demographic (e.g., English-speaking pop listeners), the model learns to recommend well for that group and poorly for everyone else. Niche genres like jazz or regional music get less data, fewer plays, and lower scores — not because users dislike them, but because the system was never trained to understand them. The deeper problem is that the system never signals when it has no good answer. It always returns k results with scores that look confident, hiding the fact that a user with rare tastes is being served the least-bad option rather than a genuine match.
 
 
