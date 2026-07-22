@@ -9,3 +9,13 @@ id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
 8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
 9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
 10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+11,Broken Strings,Ember Vale,folk,sad,0.31,68,0.22,0.38,0.94
+12,Carnival Lights,Los Ritmos,latin,energetic,0.88,142,0.90,0.91,0.12
+13,Frozen Tundra,Pale Signal,metal,intense,0.96,168,0.31,0.55,0.04
+14,Golden Hour,Sable & Rue,country,nostalgic,0.48,96,0.74,0.52,0.83
+15,Neon Sermon,Static Monk,electronic,dark,0.79,130,0.28,0.84,0.07
+16,Rainy Season,Fernweh,classical,melancholic,0.22,52,0.38,0.25,0.97
+17,Soul Pocket,The Groovers,r&b,romantic,0.63,104,0.80,0.76,0.44
+18,Desert Mirage,Dune Drift,world,mysterious,0.55,98,0.58,0.61,0.68
+19,Voltage Drop,Circuit Breaker,hip hop,confident,0.84,95,0.66,0.87,0.09
+20,Porch at Dusk,Wayward Pine,folk,peaceful,0.26,64,0.69,0.33,0.91
